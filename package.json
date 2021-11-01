@@ -1,0 +1,26 @@
+{
+  "name": "cpnt262-a4",
+  "version": "1.0.0",
+  "description": "CPNT 262 Assignment 4 - Node command line app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byung1211/cpnt262-a4.git"
+  },
+  "keywords": [
+    "tip",
+    "calculator"
+  ],
+  "author": "Byung Uk An",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/byung1211/cpnt262-a4/issues"
+  },
+  "homepage": "https://github.com/byung1211/cpnt262-a4#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
