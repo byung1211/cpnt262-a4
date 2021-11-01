@@ -9,7 +9,21 @@
 - Tip Calculator 
 
 ### How to use
-- You need two numbers, your bill amount and tip percent, to get 
+- You can run the Tip Calculator with the command below. 
+```
+node app.js
+or
+npm run tip-calculator
+```
+- First, you will enter your bill amount on the message below.
+```
+Enter Bill Amount: [Your Bill Amount]
+```
+- Second, you will enter your Tip Percentage on the message below.
+ ```
+Enter Tip Percentage(%): [Your Tip Percentage(%)]
+```
+
 - Example of the Usage
 
 ```
