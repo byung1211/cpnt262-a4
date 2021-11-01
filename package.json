@@ -4,7 +4,8 @@
   "description": "CPNT 262 Assignment 4 - Node command line app",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tip-calculator": "node app.js"
   },
   "repository": {
     "type": "git",
