@@ -6,25 +6,29 @@
 - **Github Repo:** https://github.com/byung1211/cpnt262-a4
 
 ### What it is
-- Tip Calculator 
+- Tip Calculator
+  This calculator shows the Tip Amound and Total Bill Amound as a result after calculating with your Bill Amound and Tip Percentage.
 
 ### How to use
 - You can run the Tip Calculator with the command below. 
 ```
 node app.js
+
 or
+
 npm run tip-calculator
 ```
-- First, you will enter your bill amount on the message below.
+- Firstly, you enter your bill amount on the message below.
 ```
-Enter Bill Amount: [Your Bill Amount]
+Enter Bill Amount: *[Your Bill Amount]*
 ```
-- Second, you will enter your Tip Percentage on the message below.
+- Secondly, you enter your Tip Percentage on the message below.
  ```
-Enter Tip Percentage(%): [Your Tip Percentage(%)]
+Enter Tip Percentage(%): *[Your Tip Percentage(%)]*
 ```
+- With your inputs, the Tip Calculator shows the outcome, both the Tip Amount and the Total Bill Amount.
 
-- Example of the Usage
+- See the example of the usage below.
 
 ```
 This is a simple tip calculator.
@@ -54,4 +58,4 @@ Your Total: $134.4
 
 ### Comment
 	
-- For better user experience, I have chosen to use the readline module to get user inputs.
+- For better user experience, I have chosen to use a third party library that is readline-sync module to get user inputs synchronously in the event driven readline logic.
